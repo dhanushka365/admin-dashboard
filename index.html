@@ -9,8 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4f23ae4e7d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css"/>
-       <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,17 +19,22 @@
     <section id="menu">
         <div class="logo">
             <img src="assets/imgs/274785.svg"/>
-            <h2>Dashboard</h2>
+            <h2>CEB APP</h2>
         </div>
 
         <div class="items">
-            <li><i class="fas fa-chart-pie"></i><a href="#">Dashboard</a></li>
-            <li><i class="fab fa-uikit"></i><a href="#">UI Elements</a></li>
-            <li><i class="fas fa-th-large"></i><a href="#">Tables</a></li>
-            <li><i class="fas fa-edit"></i><a href="#">Forms</a></li>
-            <li><i class="fas fa-cc-visa"></i><a href="#">Cards</a></li>
-            <li><i class="fas fa-hamburger"></i><a href="#">Model</a></li>
-            <li><i class="fas fa-chart-line"></i><a href="#">blank</a></li>
+            <li><i class="fas fa-tachometer "></i><a href="#">Dashboard</a></li>
+            <li><i class="fas fa-history "></i><a href="#">E-Meter History</a></li>
+            <li><i class="fas fa-chart-line"></i><a href="#">Forecast</a></li>
+            <li><i class="fas fa-map "></i><a href="#">Live Map</a></li>
+            <li><i class="fas fa-user-circle"></i><a href="#">Users</a></li>
+            <li><i class="fas fa-edit"></i><a href="#">Device Control</a></li>
+            <li><i class="fas fa-hourglass-half "></i><a href="#">Energy & Costs Saver</a></li>
+            <li><i class="fas fa-file-text "></i><a href="#">Reports</a></li>
+            <li><i class="fas fa-thumbs-o-down"></i><a href="#">Complains</a></li>
+            <li><i class="fas fa-exclamation "></i><a href="#">Alerts</a></li>
+            <li><i class="fas fa-newspaper"></i><a href="#">Daily News</a></li>
+            <li><i class="fas fa-phone "></i><a href="#">Contact</a></li>
         </div>
 
     </section>
@@ -53,44 +59,60 @@
                 <img src="assets/imgs/avata-1.jpg"/>
             </div>
         </div>
-        <!--Title-->
-        <h3 class="i-name">Dashboard</h3>
         <!--Cards-->
         <div class="values">
-            <div class="val-box">
-                <i class ="fas fa-users"></i>
-                <div>
-                    <h3>8,255</h3>
-                    <span>Users</span>
-                </div>
-            </div>
-            <div class="val-box">
-                <i class ="fas fa-shopping-cart"></i>
-                <div>
-                    <h3>6,255</h3>
-                    <span>Products</span>
-                </div>
-            </div>
-            <div class="val-box">
-                <i class ="fas fa-shopping-cart"></i>
-                <div>
-                    <h3>3,255</h3>
-                    <span>Sold</span>
-                </div>
-            </div>
-            <div class="val-box">
-                <i class ="fas fa-dollar-sign"></i>
-                <div>
-                    <h3>8,255</h3>
-                    <span>Users</span>
-                </div>
-            </div>
+            <div class="container bootstrap snippets bootdey">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="circle-tile ">
+                      <a href="#"><div class="circle-tile-heading green"><i class="fa fa-users fa-fw fa-3x"></i></div></a>
+                      <div class="circle-tile-content green">
+                        <div class="circle-tile-description text-faded">Active Users</div>
+                        <div class="circle-tile-number text-faded ">1</div>
+                        <a class="circle-tile-footer" href="#">More Info<i class="fa fa-chevron-circle-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="circle-tile ">
+                      <a href="#"><div class="circle-tile-heading red"><i class="fa fa-exclamation-triangle fa-fw fa-3x"></i></div></a>
+                      <div class="circle-tile-content red">
+                        <div class="circle-tile-description text-faded"> Usage Anomalies </div>
+                        <div class="circle-tile-number text-faded ">10</div>
+                        <a class="circle-tile-footer" href="#">More Info<i class="fa fa-chevron-circle-right"></i></a>
+                      </div>
+                    </div>
+                  </div> 
+                   
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="circle-tile ">
+                      <a href="#"><div class="circle-tile-heading orange"><i class="fa fa-plug fa-fw fa-3x"></i></div></a>
+                      <div class="circle-tile-content orange">
+                        <div class="circle-tile-description text-faded"> connected Devices</div>
+                        <div class="circle-tile-number text-faded ">10</div>
+                        <a class="circle-tile-footer" href="#">More Info<i class="fa fa-chevron-circle-right"></i></a>
+                      </div>
+                    </div>
+                  </div> 
+                   
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="circle-tile ">
+                      <a href="#"><div class="circle-tile-heading blue"><i class="fa fa-credit-card-alt  fa-fw fa-3x"></i></div></a>
+                      <div class="circle-tile-content blue">
+                        <div class="circle-tile-description text-faded"> Monthy Bill </div>
+                        <div class="circle-tile-number text-faded ">rs:100.00</div>
+                        <a class="circle-tile-footer" href="#">More Info<i class="fa fa-chevron-circle-right"></i></a>
+                      </div>
+                    </div>
+                  </div> 
+                </div> 
+              </div>  
         </div>
         <!--Graph prediction-->
         <div class="container">
         <div>
             <canvas id="canvas"></canvas>
-            <button onclick="updateChart()">Fetch</button>
         </div>
         </div>
 
