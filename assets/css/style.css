@@ -287,6 +287,14 @@ tbody tr td{
     display:none;
 }
 
+#canvas{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+}
+
 @media(max-width:769px){
 
     #menu{
@@ -340,6 +348,13 @@ tbody tr td{
         margin-left: 270px;
         transition:0.3s ease;
     }
+    #canvas{
+        width: 100%;
+    }
+
+    .container{
+        width: 90%;
+    }
 }
 
 @media (max-width:480px) {
@@ -367,5 +382,13 @@ tbody tr td{
 
     .board{
         margin: 30px 15px 30px 15px;
+    }
+
+    #canvas{
+        width: 100%;
+    }
+
+    .container{
+        width: 90%;
     }
 }
