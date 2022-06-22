@@ -23,11 +23,11 @@
         </div>
 
         <div class="items">
-            <li><i class="fas fa-tachometer "></i><a href="#">Dashboard</a></li>
+            <li><i class="fas fa-tachometer "></i><a href="index.php">Dashboard</a></li>
             <li><i class="fas fa-history "></i><a href="#">E-Meter History</a></li>
             <li><i class="fas fa-chart-line"></i><a href="#">Forecast</a></li>
             <li><i class="fas fa-map "></i><a href="#">Live Map</a></li>
-            <li><i class="fas fa-user-circle"></i><a href="#">Users</a></li>
+            <li><i class="fas fa-user-circle"></i><a href="admin.php">Users</a></li>
             <li><i class="fas fa-edit"></i><a href="#">Device Control</a></li>
             <li><i class="fas fa-hourglass-half "></i><a href="#">Energy & Costs Saver</a></li>
             <li><i class="fas fa-file-text "></i><a href="#">Reports</a></li>
