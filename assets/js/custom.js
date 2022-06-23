@@ -2,7 +2,7 @@ let hoistedValue = 0;
 
 function updateChart(){
     async function fetchData(){
-        const url = 'http://localhost/SLEFML/js/data.json'
+        const url = 'http://localhost/admin-dashboard/assets/js/data.json'
         const response = await fetch(url);
         const datapoints = await response.json();
         console.log(datapoints)
